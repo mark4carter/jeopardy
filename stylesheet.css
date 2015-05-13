@@ -46,21 +46,23 @@
     width: 752px;
     height: 466px;
     position: absolute;
-    opacity: 0.8;jtj
+    opacity: 0.8;
     z-index: 9;
     top: 0px;
     left: 0px;
 }
 
+
+
 .front {
     border:5px ridge DodgerBlue;
     background-color:DeepSkyBlue;
-    height: 233px;
-    width: 627px;
+    height: 400px;
+    width: 700px;
     position:absolute;
     z-index:10;
-    top:116px;
-    left:63px;
+    top:25px;
+    left:23px;
     border-radius:5px;
 }
 
@@ -99,6 +101,8 @@
 
 .tab20 {
     text-indent:20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .textual {
@@ -164,4 +168,13 @@ background-color: #ff5c00;
 
 .catPoints {
     color: #FFDF00;
+}
+
+.noPointer {
+    cursor: default;
+}
+
+.ansFoot {
+    margin: auto;
+    width: 699px;
 }
